@@ -1,0 +1,47 @@
+.recipe-cards {
+    position: fixed;
+    align-items: center;
+    bottom: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+    margin: 20px;
+}
+#ReceitasLink{
+    color: #f0f0f0;
+}
+.card {
+    background-color: #F8E2C8;
+    border: 1px solid #D98B6A;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    width: 300px;
+    max-height: fit-content;
+    text-align: left;
+}
+
+.card h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card ul {
+    list-style-type: disc;
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.card p {
+    font-size: 16px;
+    margin-top: 10px;
+    border-top: 1px solid #D98B6A;
+    padding-top: 10px;
+}

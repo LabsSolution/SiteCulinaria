@@ -1,0 +1,52 @@
+.LogoTipo{
+    position: relative;
+    width: 128px;
+    height: 128px;
+}
+.Container{
+    position: fixed;
+    font-size: 20px;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    align-content: center;
+    text-align: center;
+}
+.back{
+    background-color: #f08080;
+}
+.toolbar-item:hover{
+    color: #f0f0f0;
+    transition: ease-in 0.125s;
+}
+.toolbar-item {
+    color: #909090;
+    font-weight: bold;
+    text-decoration-style: none;
+    margin: 10px;
+    text-decoration: black;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    transition: ease-out 0.125s;
+}
+.topo {
+    background-color: #101010;
+    position: fixed;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    color: white;
+    text-align: center;
+}
